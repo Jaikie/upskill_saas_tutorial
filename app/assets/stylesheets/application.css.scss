@@ -21,7 +21,7 @@
 
 // Typography Stlye
 h1, h2, h3 {
-    font-family: 'Baloo Bhaina', sans-serif;
+    font-family: 'Baloo Bhaina', 'sans-serif';
 }
 
 // Background Gradient
@@ -38,7 +38,8 @@ h1, h2, h3 {
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
-  color: white;
+    color: white;
+    font-family: 'Baloo Bhaina', 'sans-serif'; 
   &:hover {
     color:white;
     opacity:0.75;
@@ -52,6 +53,3 @@ h1, h2, h3 {
   padding-top: 50px;
   padding-bottom: 100px;
 }
-
-
-
