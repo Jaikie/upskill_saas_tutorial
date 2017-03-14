@@ -20,7 +20,7 @@
  @import 'font-awesome';
 
 // Typography Stlye
-h1, h2, h3 {
+h1, h2, h3, .navbar-default {
     font-family: 'Baloo Bhaina', 'sans-serif';
 }
 
@@ -39,7 +39,6 @@ h1, h2, h3 {
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
     color: white;
-    font-family: 'Baloo Bhaina', 'sans-serif'; 
   &:hover {
     color:white;
     opacity:0.75;
